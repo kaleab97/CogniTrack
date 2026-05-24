@@ -1,4 +1,8 @@
 CogniTrack: Turning Student Data into Student Success
 I’ve always believed that every student should have the chance to succeed, but in many schools, it’s far too easy for students to slip through the cracks unnoticed. By the time a teacher realizes someone is struggling, it’s often too late to help.
 I built CogniTrack to change that. It’s a dashboard that turns silent, static grade records into an early-warning system. Instead of waiting for a bad final exam, the platform flags students who are starting to drift, giving teachers the time they need to step in and offer support before a student falls behind.
+<<<<<<< HEAD
 If you’d like to see it in action, you can clone the repository, navigate to the /backend directory, run npm install, and start the server with node server.js. Then, just open the /frontend/index.html file in your browser to see the dashboard.
+=======
+If you’d like to see it in action, you can clone the repository, navigate to the /backend directory, run npm install, and start the server with node server.js. Then, just open the /frontend/index.html file in your browser to see the dashboard.
+>>>>>>> e743376eb03c38c6f54d08c16ba431c8f7e76300
