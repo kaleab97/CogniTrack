@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CogniTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CogniTrack</h1>
+        
+        <div class="stats-grid">
+            <div class="card stat-card">
+                <h2>Total Students</h2>
+                <p id="totalStudents">0</p>
+            </div>
+            <div class="card stat-card">
+                <h2>Students At Risk</h2>
+                <p id="riskStudents">0</p>
+            </div>
+            <div class="card stat-card">
+                <h2>Avg Risk Score</h2>
+                <p id="averageScore">0%</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Student List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Gender</th>
+                        <th>Department</th>
+                        <th>enrollment year</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody"></tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Students At Risk</h2>
+            <table>
+                <thead>
+                    <tr><th>Name</th><th>Average Score</th><th>Status</th></tr>
+                </thead>
+                <tbody id="riskTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
